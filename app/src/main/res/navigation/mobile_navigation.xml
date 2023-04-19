@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@+id/navDirectory">
+
+    <fragment
+        android:id="@+id/navDirectory"
+        android:name="com.informationtechnologydepartmentappv2.fragments.StaffFragment"
+        android:label="Faculty/Staff Directory"
+        tools:layout="@layout/fragment_staff" />
+    <fragment
+        android:id="@+id/navCourses"
+        android:name="com.informationtechnologydepartmentappv2.fragments.CoursesFragment"
+        android:label="Courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/navTimetable"
+        android:name="com.informationtechnologydepartmentappv2.fragments.TimeTableFragment"
+        android:label="Timetable"
+        tools:layout="@layout/fragment_timetable" />
+    <fragment
+        android:id="@+id/navAdmissions"
+        android:name="com.informationtechnologydepartmentappv2.fragments.AdmissionsFragment"
+        android:label="Admissions"
+        tools:layout="@layout/fragment_admissions" />
+    <fragment
+        android:id="@+id/navSocialMedia"
+        android:name="com.informationtechnologydepartmentappv2.fragments.SocialMediaFragment"
+        android:label="Social Media"
+        tools:layout="@layout/fragment_social_media" />
+</navigation>
